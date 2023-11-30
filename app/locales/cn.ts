@@ -373,6 +373,10 @@ const cn = {
   FineTuned: {
     Sysmessage: "你是一个助手",
   },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "面具",
     Page: {
@@ -441,9 +445,9 @@ const cn = {
     Config: "配置",
   },
   Exporter: {
-    Description : {
-      Title: "只有清除上下文之后的消息会被展示"
-    },  
+    Description: {
+      Title: "只有清除上下文之后的消息会被展示",
+    },
     Model: "模型",
     Messages: "消息",
     Topic: "主题",

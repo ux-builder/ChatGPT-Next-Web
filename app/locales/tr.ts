@@ -186,6 +186,10 @@ const tr: PartialLocaleType = {
   FineTuned: {
     Sysmessage: "Sen bir asistansın",
   },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "Mask",
     Page: {

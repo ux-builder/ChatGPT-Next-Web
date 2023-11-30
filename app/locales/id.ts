@@ -307,6 +307,10 @@ const id: PartialLocaleType = {
   FineTuned: {
     Sysmessage: "Anda adalah asisten yang",
   },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "Masks",
     Page: {
@@ -369,8 +373,8 @@ const id: PartialLocaleType = {
   },
   Exporter: {
     Description: {
-      Title: "Hanya pesan setelah menghapus konteks yang akan ditampilkan"
-    },  
+      Title: "Hanya pesan setelah menghapus konteks yang akan ditampilkan",
+    },
     Model: "Model",
     Messages: "Pesan",
     Topic: "Topik",

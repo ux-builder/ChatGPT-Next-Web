@@ -186,6 +186,10 @@ const ru: PartialLocaleType = {
   FineTuned: {
     Sysmessage: "Вы - ассистент, который",
   },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "Маска",
     Page: {

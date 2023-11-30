@@ -225,6 +225,10 @@ ${builtin} مدمجة، ${custom} تم تعريفها من قبل المستخد
   FineTuned: {
     Sysmessage: "أنت مساعد ي",
   },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "الأقنعة",
     Page: {

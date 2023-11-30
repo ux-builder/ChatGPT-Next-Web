@@ -382,6 +382,10 @@ const pt: PartialLocaleType = {
   FineTuned: {
     Sysmessage: "Você é um assistente que",
   },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "Máscara",
     Page: {

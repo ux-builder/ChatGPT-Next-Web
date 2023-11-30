@@ -263,6 +263,10 @@ const bn: PartialLocaleType = {
   FineTuned: {
     Sysmessage: "আপনি একটি সহকারী যা",
   },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "মাস্ক",
     Page: {

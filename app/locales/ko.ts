@@ -34,7 +34,7 @@ const ko: PartialLocaleType = {
     Send: "보내기",
     Config: {
       Reset: "기본값으로 재설정",
-      SaveAs: "마스크로 저장",
+      SaveAs: "템플릿으로 저장",
     },
   },
   Export: {
@@ -54,7 +54,7 @@ const ko: PartialLocaleType = {
       "재설정하면 현재 대화 기록과 기억력이 삭제됩니다. 정말 재설정하시겠습니까?",
   },
   Home: {
-    NewChat: "새로운 채팅",
+    NewChat: "새 채팅",
     DeleteChat: "선택한 대화를 삭제하시겠습니까?",
     DeleteToast: "채팅이 삭제되었습니다.",
     Revert: "되돌리기",
@@ -94,8 +94,8 @@ const ko: PartialLocaleType = {
     },
     Mask: {
       Splash: {
-        Title: "마스크 시작 화면",
-        SubTitle: "새로운 채팅 시작 전에 마스크 시작 화면 표시",
+        Title: "템플릿 시작 화면",
+        SubTitle: "새로운 채팅 시작 전에 템플릿 시작 화면 표시",
       },
     },
     Prompt: {
@@ -155,7 +155,7 @@ const ko: PartialLocaleType = {
   },
   Store: {
     DefaultTopic: "새 대화",
-    BotHello: "안녕하세요! 오늘 도움이 필요하신가요?",
+    BotHello: "안녕하세요! 인사 업무에 대해 모든 것을 물어보세요.",
     Error: "문제가 발생했습니다. 나중에 다시 시도해주세요.",
     Prompt: {
       History: (content: string) =>
@@ -181,8 +181,12 @@ const ko: PartialLocaleType = {
   FineTuned: {
     Sysmessage: "당신은 어시스턴트입니다",
   },
+  Side: {
+    Title: "AI 인사쟁이",
+    SubTitle: "AI 인사 비서를 채용하세요.",
+  },
   Mask: {
-    Name: "마스크",
+    Name: "템플릿",
     Page: {
       Title: "프롬프트 템플릿",
       SubTitle: (count: number) => `${count}개의 프롬프트 템플릿`,
@@ -211,8 +215,8 @@ const ko: PartialLocaleType = {
   NewChat: {
     Return: "돌아가기",
     Skip: "건너뛰기",
-    Title: "마스크 선택",
-    SubTitle: "마스크 뒤의 영혼과 대화하세요",
+    Title: "템플릿 선택",
+    SubTitle: "템플릿으로 더 좋은 답변을 받으세요",
     More: "더 보기",
     NotShow: "다시 표시하지 않음",
     ConfirmNoShow:

@@ -379,6 +379,10 @@ const en: LocaleType = {
   FineTuned: {
     Sysmessage: "You are an assistant that",
   },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "Mask",
     Page: {
@@ -443,8 +447,8 @@ const en: LocaleType = {
   },
   Exporter: {
     Description: {
-      Title: "Only messages after clearing the context will be displayed"
-    },  
+      Title: "Only messages after clearing the context will be displayed",
+    },
     Model: "Model",
     Messages: "Messages",
     Topic: "Topic",

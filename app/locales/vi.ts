@@ -181,6 +181,10 @@ const vi: PartialLocaleType = {
   FineTuned: {
     Sysmessage: "Bạn là một trợ lý",
   },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "Mẫu",
     Page: {

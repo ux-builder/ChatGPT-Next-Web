@@ -173,6 +173,10 @@ const tw: PartialLocaleType = {
   },
   Plugin: { Name: "外掛" },
   FineTuned: { Sysmessage: "你是一個助手" },
+  Side: {
+    Title: "AI HR Assistant",
+    SubTitle: "Build your own AI HR assistant.",
+  },
   Mask: {
     Name: "面具",
     Page: {
