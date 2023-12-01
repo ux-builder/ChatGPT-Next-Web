@@ -1,5 +1,5 @@
 import { Mask } from "../store/mask";
-import { KO_MASKS } from "./ko_backup";
+import { KO_MASKS } from "./ko";
 import { EN_MASKS } from "./en";
 import { CN_MASKS } from "./cn";
 
