@@ -65,7 +65,7 @@ const ko: PartialLocaleType = {
 
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
-      All: "All Languages",
+      All: "모든 언어",
     },
     Avatar: "아바타",
     FontSize: {
