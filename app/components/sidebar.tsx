@@ -5,7 +5,7 @@ import styles from "./home.module.scss";
 import { IconButton } from "./button";
 import SettingsIcon from "../icons/settings.svg";
 import GithubIcon from "../icons/github.svg";
-import ChatGptIcon from "../icons/chatgpt.svg";
+import ChatGptIcon from "../icons/ai-insa.svg";
 import AddIcon from "../icons/add.svg";
 import CloseIcon from "../icons/close.svg";
 import DeleteIcon from "../icons/delete.svg";
@@ -18,12 +18,15 @@ import Locale from "../locales";
 import { useAppConfig, useChatStore } from "../store";
 
 import {
+  COMPANY,
   DEFAULT_SIDEBAR_WIDTH,
   MAX_SIDEBAR_WIDTH,
   MIN_SIDEBAR_WIDTH,
   NARROW_SIDEBAR_WIDTH,
+  PRIVACY,
   Path,
   REPO_URL,
+  TERMS,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -206,6 +209,38 @@ export function SideBar(props: { className?: string }) {
         <ChatList narrow={shouldNarrow} />
       </div>
 
+      <div className={styles["sidebar-line"]}></div>
+      {/*
+      <div className={styles["sidebar-header-bar"]}>
+        <IconButton
+          icon={<MaskIcon />}
+          text={shouldNarrow ? undefined : Locale.Mask.Name}
+          className={styles["sidebar-bar-button"]}
+          onClick={() => {
+            if (config.dontShowMaskSplashScreen !== true) {
+              navigate(Path.NewChat, { state: { fromHome: true } });
+            } else {
+              navigate(Path.Masks, { state: { fromHome: true } });
+            }
+          }}
+          shadow
+        />
+        <IconButton
+          icon={<AddIcon />}
+          text={shouldNarrow ? undefined : Locale.Home.NewChat}
+          className={styles["sidebar-bar-button"]}
+          onClick={() => {
+            if (config.dontShowMaskSplashScreen) {
+              chatStore.newSession();
+              navigate(Path.Chat);
+            } else {
+              navigate(Path.NewChat);
+            }
+          }}
+          shadow
+        />
+      </div>
+*/}
       <div className={styles["sidebar-tail"]}>
         <div className={styles["sidebar-actions"]}>
           <div className={styles["sidebar-action"] + " " + styles.mobile}>
@@ -219,26 +254,58 @@ export function SideBar(props: { className?: string }) {
             />
           </div>
           <div className={styles["sidebar-action"]}>
+            <a
+              href={COMPANY}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              오이사공 eHR
+            </a>
+          </div>
+          <div className={styles["sidebar-action"]}>
+            <a
+              href={TERMS}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              이용약관
+            </a>
+          </div>
+          <div className={styles["sidebar-action"]}>
+            <a
+              href={PRIVACY}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              개인정보처리방침
+            </a>
+          </div>
+
+          {/* <div className={styles["sidebar-action"]}>
             <Link to={Path.Settings}>
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          {/* <div className={styles["sidebar-action"]}>
+           <div className={styles["sidebar-action"]}>
             <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div> */}
         </div>
-        <div>
-          <IconButton
-            icon={<PluginIcon />}
-            text={shouldNarrow ? undefined : Locale.Plugin.Name}
-            className={styles["sidebar-bar-button"]}
-            onClick={() => showToast(Locale.WIP)}
-            shadow
-          />
-        </div>
       </div>
+
+      {/* <div className={styles["sidebar-header-bar"]}>
+        <IconButton
+          icon={<PluginIcon />}
+          text={shouldNarrow ? undefined : Locale.Plugin.Name}
+          className={styles["sidebar-bar-button"]}
+          onClick={() => showToast(Locale.WIP)}
+          shadow
+        />
+        </div> */}
 
       <div
         className={styles["sidebar-drag"]}

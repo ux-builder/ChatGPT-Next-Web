@@ -54,7 +54,7 @@ const ko: PartialLocaleType = {
       "재설정하면 현재 대화 기록과 기억력이 삭제됩니다. 정말 재설정하시겠습니까?",
   },
   Home: {
-    NewChat: "새 채팅",
+    NewChat: "새 채팅 시작",
     DeleteChat: "선택한 대화를 삭제하시겠습니까?",
     DeleteToast: "채팅이 삭제되었습니다.",
     Revert: "되돌리기",
@@ -183,7 +183,7 @@ const ko: PartialLocaleType = {
   },
   Side: {
     Title: "AI 인사쟁이",
-    SubTitle: "AI 인사 비서를 채용하세요.",
+    SubTitle: "AI에게 모든 인사 문제를 물어보세요.",
   },
   Mask: {
     Name: "템플릿",

@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AI HR Assistant Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "AI 인사쟁이",
+  description: "인사 업무를 도와주는 AI 파트너",
   viewport: {
     width: "device-width",
     initialScale: 1,

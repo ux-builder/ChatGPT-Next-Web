@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" fill="none" viewBox="0 0 16 16"><defs><rect id="path_0" width="16" height="16" x="0" y="0"/></defs><g opacity="1" transform="translate(0 0) rotate(0 8 8)"><mask id="bg-mask-0" fill="#fff"><use xlink:href="#path_0"/></mask><g mask="url(#bg-mask-0)"><path id="路径 1" style="stroke:#333;stroke-width:1.3333333333333333;stroke-opacity:1;stroke-dasharray:0 0" d="M13.33,6.67C13.33,2.98 10.35,0 6.67,0C2.98,0 0,2.98 0,6.67C0,10.35 2.98,13.33 6.67,13.33C10.35,13.33 13.33,10.35 13.33,6.67Z" transform="translate(1.3333333333333333 1.3333333333333333) rotate(0 6.666666666666666 6.666666666666666)"/><path id="路径 2" style="stroke:#333;stroke-width:1.3333333333333333;stroke-opacity:1;stroke-dasharray:0 0" d="M0,0L0,5.33" transform="translate(8 5.333333333333333) rotate(0 0 2.6666666666666665)"/><path id="路径 3" style="stroke:#333;stroke-width:1.3333333333333333;stroke-opacity:1;stroke-dasharray:0 0" d="M0,0L5.33,0" transform="translate(5.333333333333333 8) rotate(0 2.6666666666666665 0)"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clippath">
+      <rect width="24" height="24" style="fill: none; stroke-width: 0px;"/>
+    </clipPath>
+  </defs>
+  <g style="clip-path: url(#clippath);">
+    <path d="m12.57,2.29c5.04,0,9.14,4.1,9.14,9.14s-4.1,9.14-9.14,9.14c-1.35,0-2.67-.3-3.92-.89-.31-.15-.64-.22-.98-.22-.22,0-.43.03-.64.09l-3.66,1.07,1.07-3.66c.16-.54.11-1.12-.13-1.62-.59-1.25-.89-2.57-.89-3.92C3.43,6.39,7.53,2.29,12.57,2.29m0-2.29C6.26,0,1.14,5.12,1.14,11.43c0,1.76.41,3.41,1.11,4.9l-2.25,7.67,7.67-2.25c1.5.7,3.14,1.11,4.9,1.11,6.31,0,11.43-5.12,11.43-11.43S18.88,0,12.57,0Z" style="stroke-width: 0px;"/>
+  </g>
+  <path d="m13.71,6.86h-2.29v3.43h-3.43v2.29h3.43v3.43h2.29v-3.43h3.43v-2.29h-3.43v-3.43Z" style="fill-rule: evenodd; stroke-width: 0px;"/>
+</svg>
