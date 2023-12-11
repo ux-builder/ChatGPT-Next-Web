@@ -467,6 +467,7 @@ export function ChatActions(props: {
           icon={<BottomIcon />}
         />
       )}
+      {/*
       {props.hitBottom && (
         <ChatAction
           onClick={props.showPromptModal}
@@ -474,7 +475,7 @@ export function ChatActions(props: {
           icon={<SettingsIcon />}
         />
       )}
-
+      */}
       <ChatAction
         onClick={nextTheme}
         text={Locale.Chat.InputActions.Theme[theme]}
