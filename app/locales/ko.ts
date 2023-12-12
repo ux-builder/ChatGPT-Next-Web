@@ -71,10 +71,10 @@ const ko: PartialLocaleType = {
         Confirm: "환경 설정을 기본으로 초기화하시겠습니까?",
       },
       Clear: {
-        Title: "Clear All Data",
-        SubTitle: "Clear all messages and settings",
-        Action: "Clear",
-        Confirm: "Confirm to clear all messages and settings?",
+        Title: "모든 데이터 삭제",
+        SubTitle: "모든 메시지와 설정 삭제",
+        Action: "삭제",
+        Confirm: "모든 메시지와 설정을 삭제하시겠습니까?",
       },
     },
     Lang: {

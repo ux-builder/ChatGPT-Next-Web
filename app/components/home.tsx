@@ -128,7 +128,8 @@ function Screen() {
   const isHome = location.pathname === Path.Home;
   const isAuth = location.pathname === Path.Auth;
   const isMobileScreen = useMobileScreen();
-  const shouldTightBorder = getClientConfig()?.isApp || (config.tightBorder && !isMobileScreen);
+  const shouldTightBorder =
+    getClientConfig()?.isApp || (config.tightBorder && !isMobileScreen);
 
   useEffect(() => {
     loadAsyncGoogleFont();
@@ -179,6 +180,7 @@ export function useLoadData() {
 }
 
 export function Home() {
+  const config = useAppConfig(); // 삭제 필요
   useSwitchTheme();
   useLoadData();
   useHtmlLang();
@@ -186,6 +188,9 @@ export function Home() {
   useEffect(() => {
     console.log("[Config] got config from build time", getClientConfig());
     useAccessStore.getState().fetch();
+
+    // Reset the configuration here 삭제 필요
+    config.reset();
   }, []);
 
   if (!useHasHydrated()) {
