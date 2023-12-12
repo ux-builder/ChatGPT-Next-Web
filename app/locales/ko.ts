@@ -25,7 +25,7 @@ const ko: PartialLocaleType = {
     Rename: "채팅 이름 변경",
     Typing: "입력 중...",
     Input: (submitKey: string) => {
-      var inputHints = "AI 인사쟁이에게 질문을 입력하세요. \n";
+      var inputHints = "AI 인사쟁이에게 물어 볼 내용을 입력하세요. \n";
       inputHints += `${submitKey}를 눌러 보내기`;
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += ", Shift + Enter로 줄 바꿈";
