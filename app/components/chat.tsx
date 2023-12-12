@@ -476,6 +476,17 @@ export function ChatActions(props: {
         />
       )}
       */}
+
+      <ChatAction
+        onClick={async () => {
+          if (await showConfirm(Locale.Settings.Danger.Reset.Confirm)) {
+            config.reset();
+          }
+        }}
+        text={Locale.Settings.Danger.Reset.Action}
+        icon={<SettingsIcon />}
+      />
+
       <ChatAction
         onClick={nextTheme}
         text={Locale.Chat.InputActions.Theme[theme]}

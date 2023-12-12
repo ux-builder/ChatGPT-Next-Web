@@ -63,7 +63,20 @@ const ko: PartialLocaleType = {
   Settings: {
     Title: "설정",
     SubTitle: "모든 설정",
-
+    Danger: {
+      Reset: {
+        Title: "모든 설정 초기화",
+        SubTitle: "모든 설정 기본으로 초기화",
+        Action: "초기화",
+        Confirm: "환경 설정을 기본으로 초기화하시겠습니까?",
+      },
+      Clear: {
+        Title: "Clear All Data",
+        SubTitle: "Clear all messages and settings",
+        Action: "Clear",
+        Confirm: "Confirm to clear all messages and settings?",
+      },
+    },
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "모든 언어",
