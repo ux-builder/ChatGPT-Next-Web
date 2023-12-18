@@ -47,13 +47,13 @@ export const DEFAULT_CONFIG = {
 
   modelConfig: {
     model: "gpt-4-1106-preview" as ModelType,
-    temperature: 0.7,
+    temperature: 0.5,
     top_p: 1,
     max_tokens: 12000,
     presence_penalty: 0,
     frequency_penalty: 0,
     sendMemory: true,
-    historyMessageCount: 10,
+    historyMessageCount: 20,
     compressMessageLengthThreshold: 4000,
     enableInjectSystemPrompts: true,
     template: DEFAULT_INPUT_TEMPLATE,
